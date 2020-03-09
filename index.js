@@ -4,7 +4,7 @@ const Tabelas = require('./infraestrutura/tabelas');
 
 conexao.connect((erro) => {
   if (erro) {
-    console.log(erro);
+    console.log('Erro na conexao', erro);
   } else {
     console.log('Conectado com sucesso!');
 
